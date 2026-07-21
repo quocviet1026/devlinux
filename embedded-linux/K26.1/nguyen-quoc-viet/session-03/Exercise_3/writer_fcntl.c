@@ -8,6 +8,7 @@
 #define LOG_FILE "system.log"
 
 int main(int argc, char *argv[]) {
+    int test;
     if (argc < 2) {
         fprintf(stderr, "Usage: %s \"message\"\n", argv[0]);
         return 1;
